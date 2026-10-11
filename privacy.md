@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Instant Framer** · Effective October 10, 2026 · Published by Viveros Corp
+**Instant Framer** · Effective October 11, 2026 · Published by Viveros Corp
 
 ## The short version
 
@@ -23,7 +23,7 @@ Instant Framer ("the app") is published by Viveros Corp ("we", "us"). If you hav
 When you tap *Choose photos*, Android's system photo picker opens. The app can read only the photos you select there, and only to frame them. Instant Framer does not request permission to browse your photo library.
 
 - All framing (borders, crop, colors, captions) is processed on your device.
-- Framed copies are saved to your device's gallery, in a folder named *Instant Framer*, or to the app's private cache when you share without saving.
+- Framed copies are saved to your device's gallery (in an *Instant Framer* album unless you turn that off), or only to the app's private cache when you share without saving; that cache is cleared at your next export.
 - Your original photos are never modified.
 - By default, framed copies do **not** include your photo's metadata (EXIF data such as capture date, camera model or location). If you turn on *Keep location & camera data*, the framed copy keeps whatever metadata the original file provides. Android's photo picker may already remove location data before the app receives the photo.
 - When you share to Instagram or another app, the framed images go to the app you choose and are handled under that app's privacy policy.
@@ -60,6 +60,7 @@ This data is sent to Google over an encrypted connection. We do not receive it i
 - **Internet and network state**: to load ads.
 - **Notifications** (only asked for Instant Framer Pro background exports): to show export progress and tell you when your photos are ready. These notifications are created on your device.
 - **Foreground service** (Instant Framer Pro only): to keep an export running when you leave the app.
+- **Advertising ID and ad-measurement permissions** (`AD_ID`, Android ad services), added by the Google Mobile Ads SDK: to show and measure ads, as described in section 3. Instant Framer Pro, when available, stops all ad requests.
 
 The app does not request access to your photo library, camera, microphone, contacts or precise location.
 
