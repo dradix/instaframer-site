@@ -46,7 +46,7 @@ This data is sent to Google over an encrypted connection. We do not receive it i
 
 - **Consent (EEA, UK and Switzerland).** Before any ads are requested, the app shows Google's consent message, where you can consent, decline (*Do not consent*) or choose per purpose (*Manage options*). If you decline, Google may still show non-personalised ads, which use limited data for things like frequency capping and fraud prevention. You can change your choice at any time in the app under *Settings → Privacy choices for ads*.
 - You can reset or delete your advertising ID, or opt out of ads personalization, in your device's *Settings → Privacy → Ads* (the exact path varies by device).
-- Instant Framer Pro, when available, removes all ads, so the ads SDK no longer requests ads.
+- Instant Framer Pro removes all ads, so the ads SDK no longer requests ads.
 
 ## 4. What we don't collect
 
@@ -60,13 +60,14 @@ This data is sent to Google over an encrypted connection. We do not receive it i
 - **Internet and network state**: to load ads.
 - **Notifications** (only asked for Instant Framer Pro background exports): to show export progress and tell you when your photos are ready. These notifications are created on your device.
 - **Foreground service** (Instant Framer Pro only): to keep an export running when you leave the app.
-- **Advertising ID and ad-measurement permissions** (`AD_ID`, Android ad services), added by the Google Mobile Ads SDK: to show and measure ads, as described in section 3. Instant Framer Pro, when available, stops all ad requests.
+- **Advertising ID and ad-measurement permissions** (`AD_ID`, Android ad services), added by the Google Mobile Ads SDK: to show and measure ads, as described in section 3. Instant Framer Pro stops all ad requests.
+- **Google Play billing** (`BILLING`): to buy Instant Framer Pro and restore it on a new device.
 
 The app does not request access to your photo library, camera, microphone, contacts or precise location.
 
 ## 6. In-app purchases
 
-If you buy Instant Framer Pro once it becomes available, the purchase is processed by Google Play. We receive confirmation that you bought Pro, but never your payment details. Google Play's handling of your purchase is covered by Google's privacy policy.
+Instant Framer Pro is a one-time purchase processed by Google Play. The app asks Google Play whether you own Pro, on your device; we never receive your payment details, and we don't keep purchase records on servers of our own. Google Play's handling of your purchase is covered by Google's privacy policy.
 
 ## 7. Data retention and deletion
 
